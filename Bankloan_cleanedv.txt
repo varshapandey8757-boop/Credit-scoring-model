@@ -1,0 +1,63 @@
+Credit Scoring Model – Short Report
+1. Objective
+
+The objective of this project is to predict an individual's creditworthiness using past financial data. The model helps determine whether a person is likely to repay a loan or may default.
+
+2. Approach
+
+The problem is treated as a classification task (Good Credit / Bad Credit).
+The following machine learning algorithms can be used:
+
+Logistic Regression
+
+Decision Tree
+
+Random Forest
+
+These models analyze historical financial data and classify customers based on risk level.
+
+3. Dataset Description
+
+The dataset includes important financial attributes such as:
+
+Income
+
+Existing debts
+
+Payment history
+
+Credit utilization
+
+Loan history
+
+Employment details
+
+These features help in understanding the applicant’s financial behavior.
+
+4. Feature Engineering
+
+Feature engineering is performed to improve model performance, including:
+
+Creating debt-to-income ratio
+
+Calculating credit utilization ratio
+
+Handling missing values
+
+Encoding categorical variables
+
+5. Model Evaluation Metrics
+
+To measure model performance, the following metrics are used:
+
+Precision – Measures accuracy of positive predictions
+
+Recall – Measures how many actual defaulters are identified
+
+F1-Score – Balance between precision and recall
+
+ROC-AUC – Evaluates overall classification performance
+
+6. Conclusion
+
+The Credit Scoring Model helps financial institutions make informed lending decisions by predicting credit risk. It reduces default risk, speeds up loan approval processes, and ensures data-driven decision-making.
